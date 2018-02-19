@@ -1,0 +1,1891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fbb2be698c926948831ff4e8f1d7162, type: 3}
+  m_Name: GaiaResources
+  m_EditorClassIdentifier: 
+  m_name: Gaia Resource
+  m_seaLevel: 30
+  m_beachHeight: 5
+  m_terrainHeight: 1000
+  m_texturePrototypes:
+  - m_name: Sand (Beach2)
+    m_texture: {fileID: 2800000, guid: d3db7c60ea7253043b446695300b91c7, type: 3}
+    m_normal: {fileID: 0}
+    m_sizeX: 6
+    m_sizeY: 6
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metalic: 0
+    m_smoothness: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 0
+      m_checkHeight: 1
+      m_minHeight: -30
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 0
+      m_minSlope: 0
+      m_maxSlope: 90
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: House
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0.00000017881393
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.49818182
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: -0.001267314
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Grass (Hill)
+    m_texture: {fileID: 2800000, guid: 473bfeecd0f77374bb0bf1c7b342e983, type: 3}
+    m_normal: {fileID: 0}
+    m_sizeX: 1
+    m_sizeY: 1
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metalic: 0
+    m_smoothness: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 0
+      m_checkHeight: 1
+      m_minHeight: 9.48343
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.03
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 0
+      m_minSlope: 0
+      m_maxSlope: 90
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Grass&Rock
+    m_texture: {fileID: 2800000, guid: 149f0f9d7d3539c429dca95c10f481d4, type: 3}
+    m_normal: {fileID: 0}
+    m_sizeX: 6
+    m_sizeY: 6
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metalic: 0
+    m_smoothness: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 0
+      m_checkHeight: 1
+      m_minHeight: 7.4459066
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.05
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0
+      m_maxSlope: 90
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.2
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Cliff (Grassy)
+    m_texture: {fileID: 2800000, guid: 5b46df03034a2124583a40aea41ffc45, type: 3}
+    m_normal: {fileID: 0}
+    m_sizeX: 15
+    m_sizeY: 15
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metalic: 0
+    m_smoothness: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 0
+      m_checkHeight: 0
+      m_minHeight: -30
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 30
+      m_maxSlope: 90
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  m_detailPrototypes:
+  - m_name: Grass
+    m_renderMode: 2
+    m_detailProtoype: {fileID: 0}
+    m_detailTexture: {fileID: 2800000, guid: 22314277450fbd74fa79670c64540809, type: 3}
+    m_minWidth: 1
+    m_maxWidth: 1.5
+    m_minHeight: 1
+    m_maxHeight: 1.5
+    m_noiseSpread: 1
+    m_bendFactor: 0.1
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 0.3602941, g: 0.3602941, b: 0.3602941, a: 1}
+    m_dna:
+      m_width: 1.5
+      m_height: 1.5
+      m_boundsRadius: 1.5
+      m_seedThrow: 4.5
+      m_minScale: 0.13255797
+      m_maxScale: 0.7101915
+      m_rndScaleInfluence: 0
+      m_protoIdx: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 2.42
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.011027575
+          value: 0.9999949
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.17
+      m_maxSlope: 44.69941
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Weed
+    m_renderMode: 2
+    m_detailProtoype: {fileID: 0}
+    m_detailTexture: {fileID: 2800000, guid: 749f24ed6d86c4846ae563d2fbd0b7c9, type: 3}
+    m_minWidth: 0.8
+    m_maxWidth: 1.5
+    m_minHeight: 0.8
+    m_maxHeight: 1.5
+    m_noiseSpread: 1
+    m_bendFactor: 0.1
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 0.58823526, g: 0.39744657, b: 0.25086504, a: 1}
+    m_dna:
+      m_width: 1.5
+      m_height: 1.5
+      m_boundsRadius: 1.5
+      m_seedThrow: 4.5
+      m_minScale: 0.08712299
+      m_maxScale: 0.6593686
+      m_rndScaleInfluence: 0
+      m_protoIdx: 1
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 8.818264
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 2.1086118
+      m_maxSlope: 37.665314
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Weed2
+    m_renderMode: 2
+    m_detailProtoype: {fileID: 0}
+    m_detailTexture: {fileID: 2800000, guid: 10a001152ddcf4b4e89b35152a4839c8, type: 3}
+    m_minWidth: 1
+    m_maxWidth: 3
+    m_minHeight: 1
+    m_maxHeight: 3
+    m_noiseSpread: 1
+    m_bendFactor: 0.1
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 0.30882353, g: 0.29890323, b: 0.20436852, a: 1}
+    m_dna:
+      m_width: 3
+      m_height: 3
+      m_boundsRadius: 3
+      m_seedThrow: 9
+      m_minScale: 0.19011979
+      m_maxScale: 0.41967
+      m_rndScaleInfluence: 0
+      m_protoIdx: 2
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 8.569864
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.08277655
+      m_maxSlope: 48.176487
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Weed3
+    m_renderMode: 2
+    m_detailProtoype: {fileID: 0}
+    m_detailTexture: {fileID: 2800000, guid: 783fb7a989f86b747a8fe825556db02c, type: 3}
+    m_minWidth: 2
+    m_maxWidth: 3
+    m_minHeight: 2
+    m_maxHeight: 3
+    m_noiseSpread: 1
+    m_bendFactor: 0.1
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dna:
+      m_width: 3
+      m_height: 3
+      m_boundsRadius: 3
+      m_seedThrow: 9
+      m_minScale: 0.15384628
+      m_maxScale: 0.5992943
+      m_rndScaleInfluence: 0
+      m_protoIdx: 3
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 7.7868533
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 2.806177
+      m_maxSlope: 38.46272
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: WhiteFlowers
+    m_renderMode: 0
+    m_detailProtoype: {fileID: 0}
+    m_detailTexture: {fileID: 2800000, guid: 2e287cecf27a0b34bb59233c84c423d7, type: 3}
+    m_minWidth: 0.8
+    m_maxWidth: 1.2
+    m_minHeight: 0.8
+    m_maxHeight: 1.2
+    m_noiseSpread: 1
+    m_bendFactor: 0.1
+    m_healthyColour: {r: 1, g: 0.9675456, b: 0.7058823, a: 1}
+    m_dryColour: {r: 0.9117647, g: 0.9117647, b: 0.9117647, a: 1}
+    m_dna:
+      m_width: 1.2
+      m_height: 1.2
+      m_boundsRadius: 1.2
+      m_seedThrow: 3.6000001
+      m_minScale: 0.06672937
+      m_maxScale: 0.8322297
+      m_rndScaleInfluence: 0
+      m_protoIdx: 4
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 8.738683
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.579741
+      m_maxSlope: 46.88059
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  m_treePrototypes:
+  - m_name: Broadleaf_Desktop
+    m_desktopPrefab: {fileID: 100000, guid: c91c1eb85782d5748ace27eb4d7415bb, type: 3}
+    m_mobilePrefab: {fileID: 100000, guid: c91c1eb85782d5748ace27eb4d7415bb, type: 3}
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dna:
+      m_width: 25.074068
+      m_height: 23.399921
+      m_boundsRadius: 25.074068
+      m_seedThrow: 75.222206
+      m_minScale: 0.5
+      m_maxScale: 1.5
+      m_rndScaleInfluence: 0
+      m_protoIdx: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 4.2291536
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 2.897539
+      m_maxSlope: 51.572506
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Conifer_Desktop
+    m_desktopPrefab: {fileID: 100016, guid: 469edab27ab6d004d84af2c4a851bd7f, type: 3}
+    m_mobilePrefab: {fileID: 100016, guid: 469edab27ab6d004d84af2c4a851bd7f, type: 3}
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dna:
+      m_width: 13.559455
+      m_height: 30.658916
+      m_boundsRadius: 13.559455
+      m_seedThrow: 91.976746
+      m_minScale: 0.5
+      m_maxScale: 1.5
+      m_rndScaleInfluence: 0
+      m_protoIdx: 1
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 6.525977
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 2.4702456
+      m_maxSlope: 51.922207
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  m_gameObjectPrototypes:
+  - m_name: rock1 lod
+    m_instances:
+    - m_name: rock1 lod
+      m_desktopPrefab: {fileID: 100006, guid: 4aadbe033cb06c64c9e4e760b1aef0fb, type: 2}
+      m_mobilePrefab: {fileID: 0}
+      m_terrainOffset: -0.2
+      m_conformToSlope: 0
+      m_rndRotateX: 1
+      m_rndRotateY: 1
+      m_rndRotateZ: 1
+    m_dna:
+      m_width: 4.245065
+      m_height: 4.223701
+      m_boundsRadius: 4.245065
+      m_seedThrow: 12.735195
+      m_minScale: 0.5
+      m_maxScale: 1.5
+      m_rndScaleInfluence: 1
+      m_protoIdx: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 9.437484
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 1.0612874
+      m_maxSlope: 2.8418164
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: rock2 lod
+    m_instances:
+    - m_name: rock2 lod
+      m_desktopPrefab: {fileID: 100006, guid: 7c81b71b0bd8b3e45be619007a95d32d, type: 2}
+      m_mobilePrefab: {fileID: 0}
+      m_terrainOffset: -0.2
+      m_conformToSlope: 0
+      m_rndRotateX: 1
+      m_rndRotateY: 1
+      m_rndRotateZ: 1
+    m_dna:
+      m_width: 4.1783257
+      m_height: 5.630046
+      m_boundsRadius: 4.1783257
+      m_seedThrow: 16.890137
+      m_minScale: 0.5
+      m_maxScale: 1.5
+      m_rndScaleInfluence: 1
+      m_protoIdx: 1
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 5.26631
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 1.3835866
+      m_maxSlope: 4.010507
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: rock3 lod
+    m_instances:
+    - m_name: rock3 lod
+      m_desktopPrefab: {fileID: 100006, guid: 8aa0c3769e7007d47a4e4bf4ecb74ad8, type: 2}
+      m_mobilePrefab: {fileID: 0}
+      m_terrainOffset: -0.2
+      m_conformToSlope: 0
+      m_rndRotateX: 1
+      m_rndRotateY: 1
+      m_rndRotateZ: 1
+    m_dna:
+      m_width: 4.30593
+      m_height: 4.0890512
+      m_boundsRadius: 4.30593
+      m_seedThrow: 12.91779
+      m_minScale: 0.5
+      m_maxScale: 1.5
+      m_rndScaleInfluence: 1
+      m_protoIdx: 2
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 9.135341
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.85656655
+      m_maxSlope: 4.5125103
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: fi_vil_GaiaForge01
+    m_instances:
+    - m_name: fi_vil_GaiaForge01
+      m_desktopPrefab: {fileID: 113722, guid: 69a8b82af9c20454ca564ce4b8e6c261, type: 2}
+      m_mobilePrefab: {fileID: 0}
+      m_terrainOffset: 2
+      m_conformToSlope: 0
+      m_rndRotateX: 0
+      m_rndRotateY: 1
+      m_rndRotateZ: 0
+    m_dna:
+      m_width: 16.492596
+      m_height: 10.867967
+      m_boundsRadius: 16.492596
+      m_seedThrow: 49.477787
+      m_minScale: 1
+      m_maxScale: 1
+      m_rndScaleInfluence: 0
+      m_protoIdx: 3
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 4.375084
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.898955
+      m_maxSlope: 2.7971878
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: fi_vil_GaiaHouse01
+    m_instances:
+    - m_name: fi_vil_GaiaHouse01
+      m_desktopPrefab: {fileID: 144478, guid: 35a7cbaffdda74841bcbccd1fd17ab8e, type: 2}
+      m_mobilePrefab: {fileID: 0}
+      m_terrainOffset: 2
+      m_conformToSlope: 0
+      m_rndRotateX: 0
+      m_rndRotateY: 1
+      m_rndRotateZ: 0
+    m_dna:
+      m_width: 15.534866
+      m_height: 12.537938
+      m_boundsRadius: 15.534866
+      m_seedThrow: 46.6046
+      m_minScale: 1
+      m_maxScale: 1
+      m_rndScaleInfluence: 0
+      m_protoIdx: 4
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 4.2390084
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.8065393
+      m_maxSlope: 4.70119
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: fi_vil_GaiaHouse02
+    m_instances:
+    - m_name: fi_vil_GaiaHouse02
+      m_desktopPrefab: {fileID: 128984, guid: 58704affff9a5e343a7dcbb6f51fc6ea, type: 2}
+      m_mobilePrefab: {fileID: 0}
+      m_terrainOffset: 2
+      m_conformToSlope: 0
+      m_rndRotateX: 0
+      m_rndRotateY: 1
+      m_rndRotateZ: 0
+    m_dna:
+      m_width: 15.214552
+      m_height: 13.045296
+      m_boundsRadius: 15.214552
+      m_seedThrow: 45.643654
+      m_minScale: 0.5
+      m_maxScale: 1.5
+      m_rndScaleInfluence: 0
+      m_protoIdx: 5
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 3.7714376
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.027912319
+      m_maxSlope: 2.160599
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: fi_vil_GaiaHouse03
+    m_instances:
+    - m_name: fi_vil_GaiaHouse03
+      m_desktopPrefab: {fileID: 112204, guid: aad076e158b8e5d49ae6020438281156, type: 2}
+      m_mobilePrefab: {fileID: 0}
+      m_terrainOffset: 2
+      m_conformToSlope: 0
+      m_rndRotateX: 0
+      m_rndRotateY: 1
+      m_rndRotateZ: 0
+    m_dna:
+      m_width: 14.1910095
+      m_height: 9.517939
+      m_boundsRadius: 14.1910095
+      m_seedThrow: 42.57303
+      m_minScale: 1
+      m_maxScale: 1
+      m_rndScaleInfluence: 0
+      m_protoIdx: 6
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 9.625018
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.17685539
+      m_maxSlope: 4.6133947
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: fi_vil_GaiaHouse04
+    m_instances:
+    - m_name: fi_vil_GaiaHouse04
+      m_desktopPrefab: {fileID: 131208, guid: cdd4bdce779870f45a216754e31f3e36, type: 2}
+      m_mobilePrefab: {fileID: 0}
+      m_terrainOffset: 2
+      m_conformToSlope: 0
+      m_rndRotateX: 0
+      m_rndRotateY: 1
+      m_rndRotateZ: 0
+    m_dna:
+      m_width: 14.157348
+      m_height: 11.270081
+      m_boundsRadius: 14.157348
+      m_seedThrow: 42.472042
+      m_minScale: 1
+      m_maxScale: 1
+      m_rndScaleInfluence: 0
+      m_protoIdx: 7
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 1
+      m_virginTerrain: 1
+      m_checkHeight: 1
+      m_minHeight: 6.1390686
+      m_maxHeight: 970
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 1
+      m_minSlope: 0.4720932
+      m_maxSlope: 2.5232553
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1

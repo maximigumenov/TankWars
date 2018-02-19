@@ -1,0 +1,377 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fbb2be698c926948831ff4e8f1d7162, type: 3}
+  m_Name: GaiaResources Masked Textures
+  m_EditorClassIdentifier: 
+  m_name: Single Channel Texture For Splatmaps
+  m_seaLevel: 100
+  m_beachHeight: 5
+  m_terrainHeight: 1000
+  m_texturePrototypes:
+  - m_name: Sand (Beach2)
+    m_texture: {fileID: 2800000, guid: d3db7c60ea7253043b446695300b91c7, type: 3}
+    m_normal: {fileID: 0}
+    m_sizeX: 6
+    m_sizeY: 6
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metalic: 0
+    m_smoothness: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 0
+      m_checkHeight: 1
+      m_minHeight: -100
+      m_maxHeight: 900
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 0
+      m_minSlope: 0
+      m_maxSlope: 90
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Grass (Hill)
+    m_texture: {fileID: 2800000, guid: 473bfeecd0f77374bb0bf1c7b342e983, type: 3}
+    m_normal: {fileID: 0}
+    m_sizeX: 1
+    m_sizeY: 1
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metalic: 0
+    m_smoothness: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 0
+      m_checkHeight: 1
+      m_minHeight: -100
+      m_maxHeight: 900
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 0
+      m_minSlope: 0
+      m_maxSlope: 90
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Grass&Rock
+    m_texture: {fileID: 2800000, guid: 149f0f9d7d3539c429dca95c10f481d4, type: 3}
+    m_normal: {fileID: 0}
+    m_sizeX: 6
+    m_sizeY: 6
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metalic: 0
+    m_smoothness: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 0
+      m_checkHeight: 1
+      m_minHeight: -100
+      m_maxHeight: 900
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 0
+      m_minSlope: 0
+      m_maxSlope: 90
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.2
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  - m_name: Cliff (Grassy)
+    m_texture: {fileID: 2800000, guid: 5b46df03034a2124583a40aea41ffc45, type: 3}
+    m_normal: {fileID: 0}
+    m_sizeX: 15
+    m_sizeY: 15
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metalic: 0
+    m_smoothness: 0
+    m_spawnCriteria:
+    - m_name: 
+      m_checkType: 0
+      m_virginTerrain: 0
+      m_checkHeight: 0
+      m_minHeight: -100
+      m_maxHeight: 900
+      m_heightFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkSlope: 0
+      m_minSlope: 30
+      m_maxSlope: 90
+      m_slopeFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkProximity: 0
+      m_proximityTag: 
+      m_minProximity: 0
+      m_maxProximity: 100
+      m_proximityFitness:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_checkTexture: 0
+      m_matchingTextures: '!3'
+      m_isActive: 1
+  m_detailPrototypes: []
+  m_treePrototypes: []
+  m_gameObjectPrototypes: []
